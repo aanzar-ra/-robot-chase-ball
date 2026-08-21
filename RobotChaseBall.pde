@@ -23,7 +23,7 @@ void draw() {
   background(30, 30, 40);   // dark background, redrawn every frame
 
   moveRobotTowardsBall();   // update robot position to chase the ball
-  checkCollision();         // check if robot has "caught" the ball
+  checkCollision();         // move the ball to a new random position within bounds
 
   drawBall();
   drawRobot();
